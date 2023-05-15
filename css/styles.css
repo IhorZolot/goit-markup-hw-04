@@ -384,7 +384,7 @@ body {
 .customers-link:focus {
   border-color: var(--focus-hover-color);
 }
-.icon-size:hover {
+.icon-size:hover .icon-size:hover {
   fill: var(--focus-hover-color);
 }
 
@@ -497,8 +497,6 @@ body {
 }
 .work-fon {
   background-color: var(--primari-white-color);
-  /* padding-bottom: 32px; */
-  /* margin-bottom: 42px; */
   background-origin: padding-box;
   width: calc((100% - 48px) / 3);
   border: 1px solid transparent;

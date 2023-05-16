@@ -124,17 +124,10 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-}
-.overlay {
-  max-width: 1140px;
-  height: 600px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -203,10 +196,6 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
-}
-.feature-icon-size {
-  width: 64px;
-  height: 64px;
 }
 
 /* .feature-text::before {
@@ -319,8 +308,6 @@ body {
   align-items: center;
 }
 .social-link-net {
-  width: 16px;
-  height: 16px;
   fill: var(--background);
 }
 .social-list-link:hover,
@@ -370,22 +357,21 @@ body {
   border-radius: 4px;
   background-color: var(--primari-white-color);
   border: 1px solid #8e8f99;
-  /* color: #8e8f99;  */
+  color: #8e8f99;
   padding: 16px 32px;
 }
-
-.icon-size {
-  width: 104px;
-  height: 56px;
+.icon-color {
   fill: currentColor;
   fill: #8e8f99;
 }
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--focus-hover-color);
+  fill: var(--focus-hover-color);
 }
-.icon-size:hover .icon-size:focus {
-  color: var(--focus-hover-color);
+.icon-color:hover,
+.icon-color:focus {
+  fill: var(--focus-hover-color);
 }
 
 /* ========================= Footer ==================*/
@@ -410,12 +396,13 @@ body {
 .text-footer {
   color: var(--background);
   width: 264px;
-  margin-top: 18px;
 }
 .footer-section {
   align-items: baseline;
   display: flex;
-  gap: 120px;
+}
+.footer-content {
+  margin-right: 120px;
 }
 
 .social-media {
@@ -447,8 +434,6 @@ body {
 }
 .social-link-hover {
   fill: var(--background);
-  width: 24px;
-  height: 24px;
 }
 .social-link-icon-item:hover,
 .social-link-icon-item:focus {
@@ -495,14 +480,15 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.work-fon {
+.portfolio-link {
+  display: block;
   background-color: var(--primari-white-color);
   background-origin: padding-box;
   width: calc((100% - 48px) / 3);
   border: 1px solid transparent;
 }
-.work-fon:hover,
-.work-fon:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);

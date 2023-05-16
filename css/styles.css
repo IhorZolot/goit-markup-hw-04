@@ -90,7 +90,7 @@ body {
   display: inline-block;
 }
 
-/* ======================Site Navigation==============  */
+/* ==================   Top Lone   ==============  */
 .site-nav {
   color: var(--title-text-color);
   font-weight: 500;
@@ -475,11 +475,13 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
+.work-fon {
+  width: calc((100% - 48px) / 3);
+}
 .portfolio-link {
   display: block;
   background-color: var(--primari-white-color);
   background-origin: padding-box;
-  width: calc((100% - 48px) / 3);
   border: 1px solid transparent;
 }
 .portfolio-link:hover,

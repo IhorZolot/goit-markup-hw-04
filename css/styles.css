@@ -363,29 +363,29 @@ body {
 }
 .customers-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   border-radius: 4px;
   background-color: var(--primari-white-color);
   border: 1px solid #8e8f99;
-  color: #8e8f99;
+  /* color: #8e8f99;  */
   padding: 16px 32px;
-  justify-content: center;
-  align-items: center;
 }
 
 .icon-size {
   width: 104px;
   height: 56px;
-  fill: #8e8f99;
   fill: currentColor;
+  fill: #8e8f99;
 }
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--focus-hover-color);
 }
-.icon-size:hover .icon-size:hover {
-  fill: var(--focus-hover-color);
+.icon-size:hover .icon-size:focus {
+  color: var(--focus-hover-color);
 }
 
 /* ========================= Footer ==================*/
